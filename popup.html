@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Words Chrome Extension</title>
+    <link rel="stylesheet" href="popup.css"/>
+    <script src="js/popup.js"></script>
+  </head>
+  <body>
+    <div class="section">
+      <div class="section_title"> Word:</div>
+      <div id="word_section">
+        <input type="text" name="word" id="word_input">
+        <br>
+        <br>
+        <button type="button" id="word_button">Find</button>
+      </div>
+    </div>
+    
+    <div class="section">
+      <div class="section_title"> What do you need:</div>
+      <div class="checkmarks">
+        <input type="checkbox" name="meaning_check" checked>Meaning<br>
+        <input type="checkbox" name="synonym_check" checked>Synonyms<br>
+        <input type="checkbox" name="example_check">Antonyms<br>
+        <input type="checkbox" name="example_check" checked>Use in Sentence
+      </div>
+    </div>
+    
+    <div class="section">
+      <div class="section_title"> Meaning:</div>
+      <div id="meaning">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non faucibus purus. Nam volutpat eros ac lorem mollis porttitor. Vestibulum.</div>
+    </div>
+    
+    <div class="section">
+      <div class="section_title">Synonyms:</div>
+      <div id="synonyms">Blah, Blah, Blah</div>
+    </div>
+    
+    <div class="section">
+      <div class="section_title">Example in a Sentence:</div>
+      <div id="example">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non faucibus purus. Nam volutpat eros ac lorem mollis porttitor. Vestibulum.</div>
+    </div>
+  </body>
+</html>
+
