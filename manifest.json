@@ -10,7 +10,9 @@
     "default_popup": "popup.html"
   },
   "permissions": [
-    "activeTab",
-    "https://ajax.googleapis.com/"
+    // "https://*.oxforddictionaries.com/*
+    // "<all_urls>"
+    "http://*/",
+    "https://*/"
   ]
 }
